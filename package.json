@@ -2,9 +2,9 @@
   "name": "nodejs-typescript-guide",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "server.ts",
   "scripts": {
-    "start": "node dist/server.js",
+    "start": "node dist/server.ts",
     "build": "tsc",
     "dev": "ts-node -r ts-node/register src/server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
